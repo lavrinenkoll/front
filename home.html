@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atmosfera</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+            <ul class="logo_and_name">
+                <li>
+                    <img src="./res/logo.png" alt="logo" class="logo">
+                </li>
+                <li>
+                    <h1>Atmosfera</h1>
+                </li>
+            </ul>
+            <ul class="contact">
+                <li>
+                    <button class="contact_btn">About us</button>
+                    <button class="contact_btn">Contact</button>
+                </li>
+            </ul>
+    </div>
+
+    <div class="div_earth">
+        <img class="imgearth" src="./res/earth2.png">
+        <div class="div_text">
+            <p class="text" id="troposferatext1">Поточна станція:</p>
+            <p class="text">Земля</p>
+        </div>
+        <div class="div_text2">
+            <p class="text2" id="troposferatext2">Щоб перейти до наступної станції, натисни на ракету:</p>
+        </div>
+        <button class="rocket_btn" onclick="showDiv('troposfera')" id="troposferabutton"></button>
+    </div>
+    <div class="div_troposfera" id="troposfera">
+        <img class="imgearth" src="./res/troposfera.png">
+        <div class="div_text" style="margin-top: 60%;">
+            <p class="text" id="stratosferatext1">Поточна станція:</p>
+            <p class="text">Тропосфера</p>
+        </div>
+        <div class="div_text2">
+            <p class="text2" id="stratosferatext2">Щоб перейти до наступної станції, натисни на ракету:</p>
+        <button class="rocket_btn" onclick="showDiv('stratosfera')" id="stratosferabutton"></button>
+    </div>
+
+    <div class="div_stratosfera" id="stratosfera">
+        <img class="imgearth" src="./res/stratosfera.png">
+        <div class="div_text" style="margin-top: 100%;">
+            <p class="text" id="mesosferatext1">Поточна станція:</p>
+            <p class="text">Стратосфера</p>
+        </div>
+        <div class="div_text2">
+            <p class="text2" id="mesosferatext2">Щоб перейти до наступної станції, натисни на ракету:</p>
+        <button class="rocket_btn" onclick="showDiv('mesosfera')" id="mesosferabutton"></button>
+    </div>
+
+    <div class="div_mesosfera" id="mesosfera">
+        <br>
+        <button class="rocket_btn" onclick="showDiv('termosfera')" id="termosferabutton"></button>
+    </div>
+
+    <div class="div_termosfera" id="termosfera">
+        <br>
+        <button class="rocket_btn" onclick="showDiv('exosfera')" id="exosferabutton"></button>
+    </div>
+
+    <div class="div_exosfera" id="exosfera">
+        <br>
+    </div>
+
+</body>
+</html>
