@@ -65,11 +65,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transform: rotate(180deg);
+
 }
 .div_earth{
     height: 100%;
-    background: linear-gradient(to bottom, #ffffff 0%, #397cd2 100%);
+    background: linear-gradient(to bottom, #397cd2 0%, #ffffff 100%);
     font-family: "Open Sans Condensed", sans-serif;
     /*контент в центре*/
     justify-content: center;
@@ -91,13 +91,13 @@ body{
 }
 .div_text {
     z-index: 0;
-    top: 0px;
-    left: 0px;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     width: 35%;
-    margin: 10% 33% 10% 33%;
-    ;
+    bottom: 23%;
+    right: 10%;
+    left: 33%;
+
 }
 .div_text2{
     top: 0px;
@@ -113,7 +113,7 @@ body{
 
 .div_troposfera{
     height: 500px;
-    background: linear-gradient(to bottom, #397cd2 0%, #0c4698 100%);
+    background: linear-gradient(to bottom, #0c4698 0%, #397cd2 100%);
     display: none;
 }
 .div_troposfera_visible{
@@ -121,7 +121,7 @@ body{
     opacity: 0;
     animation: ani 3s forwards;
     height: 100%;
-    background: linear-gradient(to bottom, #397cd2 0%, #0c4698 100%);
+    background: linear-gradient(to bottom, #0c4698 0%, #397cd2 100%);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -137,7 +137,7 @@ body{
 }
 .div_stratosfera{
     height: 100%;
-    background: linear-gradient(to bottom, #0c4698 0%, #063170 100%);
+    background: linear-gradient(to bottom, #063170 0%, #0c4698 100%);
     display: none;
 }
 .div_stratosfera_visible{
@@ -145,14 +145,14 @@ body{
     opacity: 0;
     animation: ani 3s forwards;
     height: 100%;
-    background: linear-gradient(to bottom, #0c4698 0%, #063170 100%);
+    background: linear-gradient(to bottom, #063170 0%, #0c4698 100%);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .div_mesosfera{
     height: 100%;
-    background: linear-gradient(to bottom, #063170 0%, #032356 100%);
+    background: linear-gradient(to bottom, #032356 0%, #063170 100%);
     display: none;
 }
 .div_mesosfera_visible{
@@ -160,14 +160,14 @@ body{
     opacity: 0;
     animation: ani 3s forwards;
     height: 100%;
-    background: linear-gradient(to bottom, #063170 0%, #032356 100%);
+    background: linear-gradient(to bottom, #032356 0%, #063170 100%);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .div_termosfera{
     height: 100%;
-    background: linear-gradient(to bottom, #032356 0%, #021536 100%);
+    background: linear-gradient(to bottom,  #021536 0%, #032356 100%);
     display: none;
 }
 .div_termosfera_visible{
@@ -175,14 +175,14 @@ body{
     opacity: 0;
     animation: ani 3s forwards;
     height: 500px;
-    background: linear-gradient(to bottom, #032356 0%, #021536 100%);
+    background: linear-gradient(to bottom,  #021536 0%, #032356 100%);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .div_exosfera{
     height: 100%;
-    background: linear-gradient(to bottom, #021536 0%, #000000 100%);
+    background: linear-gradient(to bottom, #000000 0%, #021536 100%);
     display: none;
 }
 .div_exosfera_visible{
@@ -190,7 +190,7 @@ body{
     opacity: 0;
     animation: ani 3s forwards;
     height: 500px;
-    background: linear-gradient(to bottom, #021536 0%, #000000 100%);
+    background: linear-gradient(to bottom, #000000 0%, #021536 100%);
     justify-content: center;
     align-items: center;
     text-align: center;
