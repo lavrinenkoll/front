@@ -26,12 +26,29 @@
 
 
     <section class="div_exosfera" id="exosfera">
-        <br>
+        <div style="height: 100%; position: relative;">
+            <img class="imgearth" src="./res/mesosfera.png">
+            <div class="div_text">
+                <p class="text" id="finaltext1">Поточна станція:</p>
+                <p class="text">Екзосфера</p>
+            </div>
+        </div>
     </section>
 
 
     <section class="div_termosfera" id="termosfera">
-        <button class="rocket_btn" onclick="showDiv('exosfera')" id="exosferabutton"></button>
+        <br>
+        <div class="div_text2">
+            <p class="text2" id="exosferatext2">Щоб перейти до наступної станції, натисни на ракету:</p>
+            <button class="rocket_btn" onclick="showDiv('exosfera')" id="exosferabutton"></button>
+        </div>
+        <div style="height: 100%; position: relative;">
+            <img class="imgearth" src="./res/mesosfera.png">
+            <div class="div_text">
+                <p class="text" id="exosferatext1">Поточна станція:</p>
+                <p class="text">Термосфера</p>
+            </div>
+        </div>
     </section>
 
 
@@ -58,7 +75,7 @@
             <button class="rocket_btn" onclick="showDiv('mesosfera')" id="mesosferabutton"></button>
         </div>
         <div style="height: 100%; position: relative;">
-            <img class="imgearth" src="./res/stratosfera.png">
+            <img class="imgearth" src="./res/mesosfera.png">
             <div class="div_text">
                 <p class="text" id="mesosferatext1">Поточна станція:</p>
                 <p class="text">Стратосфера</p>
