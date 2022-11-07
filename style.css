@@ -65,6 +65,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: block;
 }
 .div_earth{
     height: 100%;
@@ -211,7 +212,7 @@ body{
 
 .rocket_btn{
     /*картинка вместо кнопки с прозрачностью*/
-    background: url("./res/rocket.png");
+    background: url("res/rocket.png");
     background-size: 100% 100%;
     width: 100px;
     height: 100px;
