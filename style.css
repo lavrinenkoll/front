@@ -109,6 +109,8 @@ body{
     text-align: center;
     /*посередине горизонтально*/
     width: 100%;
+    /*скрыть*/
+    display: none;
 }
 
 .div_troposfera{
@@ -219,5 +221,30 @@ body{
     /*убрать границу*/
     border: none;
     margin-bottom: 3%;
+}
+
+.rocketbtn{
+    width:7%;
+    height:13%;
+    position:fixed;
+    bottom:2%;
+    right:1.2%;
+    z-index:100;
+    background:url("res/rocket3.png") no-repeat 50%/contain;
+    transform: scale(0.6);
+    cursor:pointer;
+    border: none;
+
+}
+.div_light{
+    cursor:pointer;
+    border: none;
+    width:9%;
+    height:16%;
+    position:fixed;
+    bottom:0.5%;
+    right:0%;
+    z-index:99;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 65%);
 }
 
