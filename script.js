@@ -3,15 +3,12 @@ function showDiv(id_element) {
     /*изменить класс элемента*/
     document.getElementById(id_element).className = "div_"+id_element+"_visible";
 
-    document.getElementById(id_element+"button").style.opacity = 0;
-    document.getElementById(id_element+"button").style.display = "none";
     document.getElementById(id_element+"text1").style.display = "none";
-    document.getElementById(id_element+"text2").style.display = "none";
     window.scrollTo(0, document.getElementById(id_element).offsetTop - 100);
 
     /*подождать перед выполнением следующей функции*/
     setTimeout(function() {
-        window.scrollTo(0, document.getElementById(id_element).offsetTop - 20);
+        window.scrollTo(0, document.getElementById(id_element).offsetTop );
     }
     , 1000);
 
